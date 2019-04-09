@@ -1,0 +1,188 @@
+/* start font */
+import url('https://fonts.googleapis.com/css?family=roboto');
+/* ens font */
+
+/* start body  */
+body {
+    color: #24292e;
+    font-family: roboto, helvertical, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5cm;
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+
+/* start debug */
+.bg-pink {
+    background-color: pink
+}
+
+.bg-rgba {
+    background-color: rgba(255, 192, 208);
+}
+/* end debug */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end container */
+
+/* star logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start anchor / hyperlink */
+a:link,
+a:visited {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:over,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* end anchor / hyperlink */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: palevioletred;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px
+}
+
+.menu-primer li {
+    border-right: 1px solid pink;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: whitesmoke;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: rgb(255, 192, 208);
+    color: black;
+    text-decoration: nome;
+}
+
+.menu-primer .active {
+    background-color: white;
+    color: palevioletred;
+    text-decoration: none;
+}
+/* end  menu primer */
+
+/* start heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading */
+
+/* start jumbotron */
+.jumbotron {
+    background-color: rgba(252, 58, 36, 0.158);
+    border: 1px solid papayawhip;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+ 
+.main-home-one .box-isi,
+.main-home-two .box-isi, {
+    height: 140px;
+}
+/* end main */
+
+/* start box */
+.box-heading {
+    background-color: azure;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+.box-heading h4 {
+    font-size= 14px;
+    margin= 0;
+}
+
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #d1d5da;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px 20px;
+
+}
+
+.box-isi1 {
+    background-color: #ffffff;
+    border: 1px solid #d1d5da;
+    border-radius: 0;
+    margin: 0;
+    padding: 27.6px 20px;
+
+}
+/* end box */
+
+/* start menu sekunder */
+
+/* end menu sekunder */
